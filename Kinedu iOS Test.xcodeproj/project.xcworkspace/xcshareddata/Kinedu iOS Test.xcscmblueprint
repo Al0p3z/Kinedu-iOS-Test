@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "ea03407f-73c8-4849-b00d-994dfeea27b2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "ea03407f-73c8-4849-b00d-994dfeea27b2" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "ea03407f-73c8-4849-b00d-994dfeea27b2" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8F10262B-CB42-48D0-BAC2-BDEA739B515B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "ea03407f-73c8-4849-b00d-994dfeea27b2" : "Aplicaciones\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Kinedu iOS Test",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Kinedu iOS Test\/Kinedu iOS Test.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/148.234.13.138:8443\/svn\/AppUANLios",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "ea03407f-73c8-4849-b00d-994dfeea27b2"
+    }
+  ]
+}

@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00EA0891EA7D0290050D224 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00EA0881EA7D0290050D224 /* AppDelegate.swift */; };
+		A00EA08B1EA7D0290050D224 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00EA08A1EA7D0290050D224 /* ViewController.swift */; };
+		A00EA08E1EA7D0290050D224 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00EA08C1EA7D0290050D224 /* Main.storyboard */; };
+		A00EA0911EA7D0290050D224 /* Kinedu_iOS_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A00EA08F1EA7D0290050D224 /* Kinedu_iOS_Test.xcdatamodeld */; };
+		A00EA0931EA7D0290050D224 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A00EA0921EA7D0290050D224 /* Assets.xcassets */; };
+		A00EA0961EA7D0290050D224 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00EA0941EA7D0290050D224 /* LaunchScreen.storyboard */; };
+		A00EA0A51EA7D2230050D224 /* Arial Rounded Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A00EA0A41EA7D2230050D224 /* Arial Rounded Bold.ttf */; };
+		A00EA0A71EA809C60050D224 /* MainNPSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00EA0A61EA809C60050D224 /* MainNPSViewController.swift */; };
+		A00EA0A91EA809D60050D224 /* DetailNPSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00EA0A81EA809D60050D224 /* DetailNPSViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A00EA0851EA7D0290050D224 /* Kinedu iOS Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kinedu iOS Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00EA0881EA7D0290050D224 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A00EA08A1EA7D0290050D224 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A00EA08D1EA7D0290050D224 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A00EA0901EA7D0290050D224 /* Kinedu_iOS_Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kinedu_iOS_Test.xcdatamodel; sourceTree = "<group>"; };
+		A00EA0921EA7D0290050D224 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A00EA0951EA7D0290050D224 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A00EA0971EA7D0290050D224 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A00EA0A41EA7D2230050D224 /* Arial Rounded Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arial Rounded Bold.ttf"; sourceTree = "<group>"; };
+		A00EA0A61EA809C60050D224 /* MainNPSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNPSViewController.swift; sourceTree = "<group>"; };
+		A00EA0A81EA809D60050D224 /* DetailNPSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailNPSViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A00EA0821EA7D0290050D224 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A00EA07C1EA7D0290050D224 = {
+			isa = PBXGroup;
+			children = (
+				A00EA0871EA7D0290050D224 /* Kinedu iOS Test */,
+				A00EA0861EA7D0290050D224 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A00EA0861EA7D0290050D224 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00EA0851EA7D0290050D224 /* Kinedu iOS Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A00EA0871EA7D0290050D224 /* Kinedu iOS Test */ = {
+			isa = PBXGroup;
+			children = (
+				A00EA09D1EA7D1440050D224 /* Classes */,
+				A00EA0A01EA7D1440050D224 /* Resources */,
+				A00EA0881EA7D0290050D224 /* AppDelegate.swift */,
+				A00EA08A1EA7D0290050D224 /* ViewController.swift */,
+				A00EA08C1EA7D0290050D224 /* Main.storyboard */,
+				A00EA0921EA7D0290050D224 /* Assets.xcassets */,
+				A00EA0941EA7D0290050D224 /* LaunchScreen.storyboard */,
+				A00EA0971EA7D0290050D224 /* Info.plist */,
+				A00EA08F1EA7D0290050D224 /* Kinedu_iOS_Test.xcdatamodeld */,
+			);
+			path = "Kinedu iOS Test";
+			sourceTree = "<group>";
+		};
+		A00EA09D1EA7D1440050D224 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A00EA09E1EA7D1440050D224 /* Auxiliar */,
+				A00EA09F1EA7D1440050D224 /* ViewControllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A00EA09E1EA7D1440050D224 /* Auxiliar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Auxiliar;
+			sourceTree = "<group>";
+		};
+		A00EA09F1EA7D1440050D224 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A00EA0A61EA809C60050D224 /* MainNPSViewController.swift */,
+				A00EA0A81EA809D60050D224 /* DetailNPSViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A00EA0A01EA7D1440050D224 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A00EA0A41EA7D2230050D224 /* Arial Rounded Bold.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00EA0841EA7D0290050D224 /* Kinedu iOS Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00EA09A1EA7D0290050D224 /* Build configuration list for PBXNativeTarget "Kinedu iOS Test" */;
+			buildPhases = (
+				A00EA0811EA7D0290050D224 /* Sources */,
+				A00EA0821EA7D0290050D224 /* Frameworks */,
+				A00EA0831EA7D0290050D224 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kinedu iOS Test";
+			productName = "Kinedu iOS Test";
+			productReference = A00EA0851EA7D0290050D224 /* Kinedu iOS Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00EA07D1EA7D0290050D224 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = UANL;
+				TargetAttributes = {
+					A00EA0841EA7D0290050D224 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = CZPPD45P46;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A00EA0801EA7D0290050D224 /* Build configuration list for PBXProject "Kinedu iOS Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A00EA07C1EA7D0290050D224;
+			productRefGroup = A00EA0861EA7D0290050D224 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00EA0841EA7D0290050D224 /* Kinedu iOS Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A00EA0831EA7D0290050D224 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00EA0A51EA7D2230050D224 /* Arial Rounded Bold.ttf in Resources */,
+				A00EA0961EA7D0290050D224 /* LaunchScreen.storyboard in Resources */,
+				A00EA0931EA7D0290050D224 /* Assets.xcassets in Resources */,
+				A00EA08E1EA7D0290050D224 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00EA0811EA7D0290050D224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00EA08B1EA7D0290050D224 /* ViewController.swift in Sources */,
+				A00EA0891EA7D0290050D224 /* AppDelegate.swift in Sources */,
+				A00EA0911EA7D0290050D224 /* Kinedu_iOS_Test.xcdatamodeld in Sources */,
+				A00EA0A71EA809C60050D224 /* MainNPSViewController.swift in Sources */,
+				A00EA0A91EA809D60050D224 /* DetailNPSViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A00EA08C1EA7D0290050D224 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A00EA08D1EA7D0290050D224 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A00EA0941EA7D0290050D224 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A00EA0951EA7D0290050D224 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A00EA0981EA7D0290050D224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A00EA0991EA7D0290050D224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A00EA09B1EA7D0290050D224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CZPPD45P46;
+				INFOPLIST_FILE = "Kinedu iOS Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.uanl.movil.Kinedu-iOS-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A00EA09C1EA7D0290050D224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CZPPD45P46;
+				INFOPLIST_FILE = "Kinedu iOS Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.uanl.movil.Kinedu-iOS-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A00EA0801EA7D0290050D224 /* Build configuration list for PBXProject "Kinedu iOS Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00EA0981EA7D0290050D224 /* Debug */,
+				A00EA0991EA7D0290050D224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00EA09A1EA7D0290050D224 /* Build configuration list for PBXNativeTarget "Kinedu iOS Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00EA09B1EA7D0290050D224 /* Debug */,
+				A00EA09C1EA7D0290050D224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A00EA08F1EA7D0290050D224 /* Kinedu_iOS_Test.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A00EA0901EA7D0290050D224 /* Kinedu_iOS_Test.xcdatamodel */,
+			);
+			currentVersion = A00EA0901EA7D0290050D224 /* Kinedu_iOS_Test.xcdatamodel */;
+			path = Kinedu_iOS_Test.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A00EA07D1EA7D0290050D224 /* Project object */;
+}
