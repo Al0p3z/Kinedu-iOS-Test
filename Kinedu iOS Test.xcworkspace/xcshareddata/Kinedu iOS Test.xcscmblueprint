@@ -9,14 +9,14 @@
     "2F5E63E48C2F2AA3FBC0628E0581593043640464" : 9223372036854775807,
     "ea03407f-73c8-4849-b00d-994dfeea27b2" : 9223372036854775807
   },
-  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8F10262B-CB42-48D0-BAC2-BDEA739B515B",
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7804EE6D-8EF4-4ABE-94AC-E183E3A237AA",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "2F5E63E48C2F2AA3FBC0628E0581593043640464" : "Kinedu%20iOS%20Test\/",
     "ea03407f-73c8-4849-b00d-994dfeea27b2" : ""
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "Kinedu iOS Test",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
-  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Kinedu iOS Test.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Kinedu iOS Test.xcworkspace",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Al0p3z\/Kinedu-iOS-Test.git",

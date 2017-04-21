@@ -1,14 +1,15 @@
 //
-//  DetailNPSViewController.swift
+//  SplashViewController.swift
 //  Kinedu iOS Test
 //
-//  Created by Luis Angel Lopez Bernal on 19/04/17.
+//  Created by Luis Angel Lopez Bernal on 20/04/17.
 //  Copyright © 2017 UANL. All rights reserved.
 //
 
 import UIKit
 
-class DetailNPSViewController: UIViewController,UIGestureRecognizerDelegate {
+
+class SplashViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,9 +22,10 @@ class DetailNPSViewController: UIViewController,UIGestureRecognizerDelegate {
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        self.navigationController?.interactivePopGestureRecognizer?.delegate = self
+
     }
-    @IBAction func backButton(_ sender: Any) {
-        _ = self.navigationController?.popViewController(animated: true)
+    
+    override func viewDidAppear(_ animated: Bool) {
+        
     }
 }

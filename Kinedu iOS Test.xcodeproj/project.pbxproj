@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1021B0556F87B4DEC6E3C13B /* Pods_Kinedu_iOS_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 540BEA41E193107A970C92D3 /* Pods_Kinedu_iOS_Test.framework */; };
 		A00EA0891EA7D0290050D224 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00EA0881EA7D0290050D224 /* AppDelegate.swift */; };
 		A00EA08B1EA7D0290050D224 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00EA08A1EA7D0290050D224 /* ViewController.swift */; };
 		A00EA08E1EA7D0290050D224 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00EA08C1EA7D0290050D224 /* Main.storyboard */; };
@@ -16,9 +17,13 @@
 		A00EA0A51EA7D2230050D224 /* Arial Rounded Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A00EA0A41EA7D2230050D224 /* Arial Rounded Bold.ttf */; };
 		A00EA0A71EA809C60050D224 /* MainNPSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00EA0A61EA809C60050D224 /* MainNPSViewController.swift */; };
 		A00EA0A91EA809D60050D224 /* DetailNPSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00EA0A81EA809D60050D224 /* DetailNPSViewController.swift */; };
+		A00EA0AB1EA939AA0050D224 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00EA0AA1EA939AA0050D224 /* SplashViewController.swift */; };
+		A00EA0AD1EA940700050D224 /* NPSScoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00EA0AC1EA940700050D224 /* NPSScoreTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		441C60C05C493C85E4EFFCD4 /* Pods-Kinedu iOS Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kinedu iOS Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kinedu iOS Test/Pods-Kinedu iOS Test.debug.xcconfig"; sourceTree = "<group>"; };
+		540BEA41E193107A970C92D3 /* Pods_Kinedu_iOS_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kinedu_iOS_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A00EA0851EA7D0290050D224 /* Kinedu iOS Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kinedu iOS Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A00EA0881EA7D0290050D224 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A00EA08A1EA7D0290050D224 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -30,6 +35,9 @@
 		A00EA0A41EA7D2230050D224 /* Arial Rounded Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arial Rounded Bold.ttf"; sourceTree = "<group>"; };
 		A00EA0A61EA809C60050D224 /* MainNPSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNPSViewController.swift; sourceTree = "<group>"; };
 		A00EA0A81EA809D60050D224 /* DetailNPSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailNPSViewController.swift; sourceTree = "<group>"; };
+		A00EA0AA1EA939AA0050D224 /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		A00EA0AC1EA940700050D224 /* NPSScoreTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSScoreTableViewCell.swift; sourceTree = "<group>"; };
+		C86567EC2D023D8F0A6319D3 /* Pods-Kinedu iOS Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kinedu iOS Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kinedu iOS Test/Pods-Kinedu iOS Test.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1021B0556F87B4DEC6E3C13B /* Pods_Kinedu_iOS_Test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		326FA63D7AEE5D389AC3CCA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				540BEA41E193107A970C92D3 /* Pods_Kinedu_iOS_Test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75ECDD6E6E3362F71E2BDF2F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				441C60C05C493C85E4EFFCD4 /* Pods-Kinedu iOS Test.debug.xcconfig */,
+				C86567EC2D023D8F0A6319D3 /* Pods-Kinedu iOS Test.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A00EA07C1EA7D0290050D224 = {
 			isa = PBXGroup;
 			children = (
 				A00EA0871EA7D0290050D224 /* Kinedu iOS Test */,
 				A00EA0861EA7D0290050D224 /* Products */,
+				75ECDD6E6E3362F71E2BDF2F /* Pods */,
+				326FA63D7AEE5D389AC3CCA8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +124,8 @@
 			children = (
 				A00EA0A61EA809C60050D224 /* MainNPSViewController.swift */,
 				A00EA0A81EA809D60050D224 /* DetailNPSViewController.swift */,
+				A00EA0AA1EA939AA0050D224 /* SplashViewController.swift */,
+				A00EA0AC1EA940700050D224 /* NPSScoreTableViewCell.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -115,9 +145,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A00EA09A1EA7D0290050D224 /* Build configuration list for PBXNativeTarget "Kinedu iOS Test" */;
 			buildPhases = (
+				DF717B6DADB23DF133DB2EC8 /* [CP] Check Pods Manifest.lock */,
 				A00EA0811EA7D0290050D224 /* Sources */,
 				A00EA0821EA7D0290050D224 /* Frameworks */,
 				A00EA0831EA7D0290050D224 /* Resources */,
+				8E56C504CE8A90F1A6FBEA67 /* [CP] Embed Pods Frameworks */,
+				C8E713B32834041B282A6C0B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -177,6 +210,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8E56C504CE8A90F1A6FBEA67 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kinedu iOS Test/Pods-Kinedu iOS Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8E713B32834041B282A6C0B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kinedu iOS Test/Pods-Kinedu iOS Test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF717B6DADB23DF133DB2EC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A00EA0811EA7D0290050D224 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -185,6 +266,8 @@
 				A00EA08B1EA7D0290050D224 /* ViewController.swift in Sources */,
 				A00EA0891EA7D0290050D224 /* AppDelegate.swift in Sources */,
 				A00EA0911EA7D0290050D224 /* Kinedu_iOS_Test.xcdatamodeld in Sources */,
+				A00EA0AD1EA940700050D224 /* NPSScoreTableViewCell.swift in Sources */,
+				A00EA0AB1EA939AA0050D224 /* SplashViewController.swift in Sources */,
 				A00EA0A71EA809C60050D224 /* MainNPSViewController.swift in Sources */,
 				A00EA0A91EA809D60050D224 /* DetailNPSViewController.swift in Sources */,
 			);
@@ -307,6 +390,7 @@
 		};
 		A00EA09B1EA7D0290050D224 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 441C60C05C493C85E4EFFCD4 /* Pods-Kinedu iOS Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CZPPD45P46;
@@ -321,6 +405,7 @@
 		};
 		A00EA09C1EA7D0290050D224 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C86567EC2D023D8F0A6319D3 /* Pods-Kinedu iOS Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CZPPD45P46;
@@ -352,6 +437,7 @@
 				A00EA09C1EA7D0290050D224 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
